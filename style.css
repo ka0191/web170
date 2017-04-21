@@ -1,0 +1,532 @@
+* {margin: 0; padding:0;}
+a {text-decoration: none; color: black;}
+ul, li {list-style: none;margin: 0;padding:0;}
+
+body {
+    width: 100%;
+    height: 100%; 
+    background: url(../images/bg.jpg);
+    font-family:Roboto,Arial,sans-serif;
+    font-size:13px;
+    font-weight:400;
+    
+}
+#home {
+     background: rgba(255, 242, 228, 0.47);
+}
+nav {
+    width: 100%;
+    background: orange;
+}
+
+nav > header{
+    width: 940px;
+    margin: 0 auto;
+    height: 50px;
+
+}
+
+nav > header > h1 {
+    width: 100px;
+    height: 100%;
+    float: left;
+    display: block;
+}
+nav > header > h1 > a {
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+nav > header > h1 > a >img {
+    width: 70%;
+    padding: 10px 0 0 0;
+}
+nav > header> ul {
+    float: right;
+    width: 50%;
+    text-align: center;   
+}
+
+nav > header> ul > li {
+    float:left;
+    width: 25%;
+}
+
+nav > header > ul > li > a {
+    color: white;
+    display: block;
+    line-height: 50px;
+}
+div#wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+main {
+    height: 33.3%;
+    width: 100%;
+    position: relative;
+
+}
+
+main .blueberry { 
+    max-width: 100%; 
+
+}
+
+main .blueberry > .slides {
+    max-height: 100%;
+    background: rgb(65, 40, 40);
+    overflow: hidden;
+}
+main .blueberry > .slides > li > img {
+    opacity: 0.3;
+}
+main > #link {
+    width: 940px;
+    position: absolute;
+    bottom: 15%;
+    right: 50%;
+    margin-right: -490px;
+}
+main > #link > ul.inner_link
+{
+    width: 68%;
+    float:right;
+    text-align: right;
+
+
+}
+main > #link > ul.inner_link > li:nth-child(1)> h2{
+    font-size: 35px;
+    margin: 20px;
+    color: orange;
+    font-weight: 110;
+
+}
+main > #link > ul.inner_link > li:nth-child(2){
+    line-height: 1.6em;
+    margin:20px;
+    color: white;
+    
+}
+main > #link > ul.inner_link > li:nth-child(3), main > #link > ul.inner_link > li:nth-child(4) {
+    width: 250px;
+    background: orange;
+    margin: 0 20px;
+    float: right;
+}
+
+main > #link > ul.inner_link > li:nth-child(3) > a,
+main > #link > ul.inner_link > li:nth-child(4) > a {
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    
+}
+
+
+section {
+    height:550px;
+    
+    text-align: center;
+    padding: 5% 0;
+}
+section > h2 {
+    font-style: italic;
+    font-size: 2em;
+    font-weight: normal;
+    margin-bottom: 60px;
+    
+}
+section > ul.round{
+    width:940px;
+    margin: 0 auto;
+    
+}
+
+section > ul.round > li {
+    width: 230px;
+    height: 230px;
+    float: left;
+    border-radius: 50%;
+     box-shadow: 5px 5px 10px #888888;
+}
+
+section > ul.round > li:nth-child(1){
+    float: left;
+}
+
+
+section > ul.round > li:nth-child(2){
+    margin-left: 125px;
+}
+section > ul.round > li:nth-child(3){
+
+    float: right;
+    margin-right: 0;
+}
+
+section > ul.round > li > ul > li > img {
+    width: 230px;
+    height: 230px;
+}
+section > ul.round > li > ul> li >h3 {
+    margin: 30px 0;
+    color: #333333;
+}
+section > ul.round > li > ul> li:nth-child(3){
+    height: 100%;
+    line-height: 1.6em;
+
+    
+
+}
+
+
+aside {
+    height: 500px;
+    width:100%;
+    
+   background: rgba(59, 35, 9, 0.13);
+    padding: 5% 0;
+    overflow:hidden;
+}
+aside > #asidediv{
+    width: 940px;
+    margin: 0 auto;
+}
+
+#asidediv >h2 {
+    
+     font-style: italic;
+    font-size: 2em;
+    font-weight: normal;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+#hours {
+    width: 250px;
+    line-height: 1.5em;
+    margin-top: 50px;
+    float: right;
+    text-align: left;
+    padding-left: 50px;
+}
+#hours > h3{
+    margin-bottom: 10px;
+}
+#hours > p {
+    margin-bottom: 20px;
+}
+
+
+#map {
+    float: left;
+    border: solid 2px #6ba015;
+}
+
+footer{
+	height: 50px;
+	background: orange;
+	clear: both;
+	text-align: center;
+    color: white;
+}
+
+footer li {
+	float: left;
+	list-style-type: none;
+	line-height: 50px; 
+	width: 33%;
+}
+div#validator {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*<!--about-->*/
+#about > #wrapper > section {
+    height: 100%;
+    width: 820px;
+    margin: 50px auto;
+    padding: 50px;
+    border-top: 3px solid #3333333;
+    background: rgba(255, 242, 228, 0.47);
+}
+
+#about > #wrapper >section >h1 {
+    font-style: italic;
+
+}
+#wrapper > section > div.sec {
+    margin: 0 auto;
+    padding: 50px 0;
+    border-bottom: 1px solid green;
+    overflow: hidden;
+
+}
+#wrapper > section > div.sec_2{
+    border-bottom: none;
+}
+#wrapper > #section_1{
+     background: rgba(255, 242, 228, 0.47);
+    padding: 50px;
+    margin: 50px;
+}
+
+
+section > div.sec_1 > .left {
+    background: url(../images/dr-lee.png) no-repeat;
+    background-size: cover;
+    float:left;
+    width:350px;
+    height: 350px;
+    margin-top: 20px;
+
+}
+section > div.sec_1 > .right{
+    text-align: left;
+    margin-top: 20px;
+    float: right;
+    width: 400px;
+
+}
+section > div.sec_1 > .right >h2 {
+    margin: 0 0 30px 0;
+}
+section > div.sec_1 > .right > p {
+    line-height: 1.7em;
+    margin-bottom: 30px;
+}
+section > div.sec_1 > .right > a{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    padding: 15px;
+    background: green;
+    color: white;
+}
+
+
+section > div.sec_1 > .right > a > span {
+    color: darkseagreen;
+}
+h1.comfort {margin-top: 50px;}
+
+#bullet > ul {
+    margin-top: 50px;
+}
+#bullet > ul > li{
+    line-height: 2em;
+    font-size: 15px;
+}
+#bullet > ul > li > img {
+    margin-right: 5px;
+}
+#top{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: black;
+    text-align: center;
+    bottom: 80px;
+    right: 50px;
+    z-index: 99999;
+    opacity: .5;
+}
+
+#top > a {
+    color: white;
+    line-height: 50px;
+    display: block;
+}
+
+#top:hover{
+    opacity: 1;
+}
+
+/*care*/
+#care > #wrapper {
+    height:100%;
+    
+    
+}
+#care > #wrapper > section {
+    width: 820px;
+    height: 100%;
+    margin: 50px auto;
+   background: rgba(255, 242, 228, 0.47);
+    padding: 50px;
+    text-align: left;
+    overflow: hidden;
+    
+}
+#care > #wrapper > section > h2, 
+#cosmetics {
+    margin: 0;
+    font-weight: bold;
+
+
+
+}
+#care > #wrapper > section > div.line
+{
+    border-top: 1px solid black;
+    margin: 10px 0 50px 0;
+}
+#care > #wrapper > section > div.advanced{
+     width:650px;
+    margin: 0 auto;
+}
+#care > #wrapper > section > div.prevent{
+    width:700px;
+    margin: 0 auto;
+}
+#care > #wrapper > section > div.prevent >h3{
+    width: 100%;
+}
+#care > #wrapper > section > div.prevent > img {
+    margin-left: 10px;
+}
+#care > #wrapper > section > div.advanced{
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+#care > #wrapper > section > div.prevent > img{
+    
+    width: 360px;
+    margin-bottom: 30px;
+    float: right;
+}
+#care > #wrapper > section > div > h3 {
+    margin: 0 auto;
+    width: 800px;
+    font-style: italic;
+    color: green;
+}
+
+#accordian > div {
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.ui-accordion .ui-accordion-content > img,
+.ui-accordion .ui-accordion-content > iframe{
+    margin-bottom: 30px;
+    width: 600px;
+    height: 300px;
+}
+.ui-accordion .ui-accordion-content > ul > li  {
+    line-height: 2.5em;
+}
+#accordian2 > iframe {
+    width:600;
+    height:300;
+  }
+#appointment > #wrapper {
+    height: 100%; 
+    margin: 50px auto;
+    padding: 50px;
+    
+    border-radius: 5px;
+    text-align: left;
+}
+#appointment > #wrapper > aside {
+    float: left;
+    width: 300px;
+    height: 100%;
+    background: transparent;
+    padding: 0;
+    text-align: center;
+}
+
+#appointment > #wrapper > aside > .ui-accordion .ui-accordion-content {
+    padding: 4em 2em;
+}
+#appointment > #wrapper > aside > #accordian > h4{
+    margin: 10px 0 30px 0 ;
+
+}
+#appointment > #wrapper > aside >  p{
+
+    line-height: 1.6em;
+    margin-bottom: 10px;
+
+
+}
+#appointment > #wrapper > aside >  p.phone{
+   color: white;
+}
+#appointment > #wrapper > main {
+    float: right;
+    width: 500px;
+}
+label {
+        display: block;
+        margin-bottom: 4px;
+    }
+    
+    fieldset {
+        width: 400px;
+        padding: 25px;
+        
+        border: 2px solid orange;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        float: right;
+
+    }
+    legend {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    label {
+        padding: 5px 0;
+        font-weight: bold;
+    }
+    
+    input[type=text]
+    input[type=email]{
+        
+        width: 100%;
+        margin-bottom: 10px;
+        height: 20px;
+    }
+    
+    input[type=radio]
+    input[type=checkbox]{
+    margin: 0 5px 5px 10px;
+    }
+    
+    
+    textarea {
+    width: 100%;
+    }
+    
+    form li {
+        list-style-type: none;
+    }
+    
+    form li:nth-last-child(1) {
+        margin-bottom: 20px;
+        
+    }
+    
+    select {
+        margin-bottom:10px;
+    }
+
+input[type=submit] {
+    float: right;
+    margin-top: 20px;
+}
