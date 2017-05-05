@@ -1,532 +1,537 @@
-* {margin: 0; padding:0;}
-a {text-decoration: none; color: black;}
-ul, li {list-style: none;margin: 0;padding:0;}
+/*
+Theme Name: Web170
+Author:Kayla Kang
+Author URI: http://kaylakang.com
+Description: This is the demo theme for the WEB170 class for the Spring 2017
+Version:1.0
+*/
 
+*{margin: 0; padding: 0;}
+ul, li {list-style: none;}
+a {text-decoration: none;}
 body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    height: 100%;
     width: 100%;
-    height: 100%; 
-    background: url(../images/bg.jpg);
-    font-family:Roboto,Arial,sans-serif;
-    font-size:13px;
-    font-weight:400;
-    
-}
-#home {
-     background: rgba(255, 242, 228, 0.47);
 }
 nav {
-    width: 100%;
-    background: orange;
-}
-
-nav > header{
-    width: 940px;
-    margin: 0 auto;
-    height: 50px;
-
-}
-
-nav > header > h1 {
-    width: 100px;
-    height: 100%;
-    float: left;
-    display: block;
-}
-nav > header > h1 > a {
-    display: block;
-    color: white;
-    text-align: center;
-}
-
-nav > header > h1 > a >img {
-    width: 70%;
-    padding: 10px 0 0 0;
-}
-nav > header> ul {
-    float: right;
-    width: 50%;
-    text-align: center;   
-}
-
-nav > header> ul > li {
-    float:left;
-    width: 25%;
-}
-
-nav > header > ul > li > a {
-    color: white;
-    display: block;
-    line-height: 50px;
-}
-div#wrapper {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    text-align: center;
-    overflow: hidden;
-}
-main {
-    height: 33.3%;
-    width: 100%;
-    position: relative;
-
-}
-
-main .blueberry { 
-    max-width: 100%; 
-
-}
-
-main .blueberry > .slides {
-    max-height: 100%;
-    background: rgb(65, 40, 40);
-    overflow: hidden;
-}
-main .blueberry > .slides > li > img {
-    opacity: 0.3;
-}
-main > #link {
-    width: 940px;
-    position: absolute;
-    bottom: 15%;
-    right: 50%;
-    margin-right: -490px;
-}
-main > #link > ul.inner_link
-{
-    width: 68%;
-    float:right;
-    text-align: right;
-
-
-}
-main > #link > ul.inner_link > li:nth-child(1)> h2{
-    font-size: 35px;
-    margin: 20px;
-    color: orange;
-    font-weight: 110;
-
-}
-main > #link > ul.inner_link > li:nth-child(2){
-    line-height: 1.6em;
-    margin:20px;
-    color: white;
-    
-}
-main > #link > ul.inner_link > li:nth-child(3), main > #link > ul.inner_link > li:nth-child(4) {
-    width: 250px;
-    background: orange;
-    margin: 0 20px;
-    float: right;
-}
-
-main > #link > ul.inner_link > li:nth-child(3) > a,
-main > #link > ul.inner_link > li:nth-child(4) > a {
-    display: block;
-    text-align: center;
-    line-height: 50px;
-    color: white;
-    
-}
-
-
-section {
-    height:550px;
-    
-    text-align: center;
-    padding: 5% 0;
-}
-section > h2 {
-    font-style: italic;
-    font-size: 2em;
-    font-weight: normal;
-    margin-bottom: 60px;
-    
-}
-section > ul.round{
-    width:940px;
-    margin: 0 auto;
-    
-}
-
-section > ul.round > li {
-    width: 230px;
-    height: 230px;
-    float: left;
-    border-radius: 50%;
-     box-shadow: 5px 5px 10px #888888;
-}
-
-section > ul.round > li:nth-child(1){
-    float: left;
-}
-
-
-section > ul.round > li:nth-child(2){
-    margin-left: 125px;
-}
-section > ul.round > li:nth-child(3){
-
-    float: right;
-    margin-right: 0;
-}
-
-section > ul.round > li > ul > li > img {
-    width: 230px;
-    height: 230px;
-}
-section > ul.round > li > ul> li >h3 {
-    margin: 30px 0;
-    color: #333333;
-}
-section > ul.round > li > ul> li:nth-child(3){
-    height: 100%;
-    line-height: 1.6em;
-
-    
-
-}
-
-
-aside {
-    height: 500px;
-    width:100%;
-    
-   background: rgba(59, 35, 9, 0.13);
-    padding: 5% 0;
-    overflow:hidden;
-}
-aside > #asidediv{
-    width: 940px;
-    margin: 0 auto;
-}
-
-#asidediv >h2 {
-    
-     font-style: italic;
-    font-size: 2em;
-    font-weight: normal;
-    margin-bottom: 60px;
-    text-align: left;
-}
-
-#hours {
-    width: 250px;
-    line-height: 1.5em;
-    margin-top: 50px;
-    float: right;
-    text-align: left;
-    padding-left: 50px;
-}
-#hours > h3{
-    margin-bottom: 10px;
-}
-#hours > p {
-    margin-bottom: 20px;
-}
-
-
-#map {
-    float: left;
-    border: solid 2px #6ba015;
-}
-
-footer{
-	height: 50px;
-	background: orange;
-	clear: both;
-	text-align: center;
-    color: white;
-}
-
-footer li {
-	float: left;
-	list-style-type: none;
-	line-height: 50px; 
-	width: 33%;
-}
-div#validator {
-    text-align: center;
-    margin-top: 20px;
-}
-
-/*<!--about-->*/
-#about > #wrapper > section {
-    height: 100%;
-    width: 820px;
-    margin: 50px auto;
-    padding: 50px;
-    border-top: 3px solid #3333333;
-    background: rgba(255, 242, 228, 0.47);
-}
-
-#about > #wrapper >section >h1 {
-    font-style: italic;
-
-}
-#wrapper > section > div.sec {
-    margin: 0 auto;
-    padding: 50px 0;
-    border-bottom: 1px solid green;
-    overflow: hidden;
-
-}
-#wrapper > section > div.sec_2{
-    border-bottom: none;
-}
-#wrapper > #section_1{
-     background: rgba(255, 242, 228, 0.47);
-    padding: 50px;
-    margin: 50px;
-}
-
-
-section > div.sec_1 > .left {
-    background: url(../images/dr-lee.png) no-repeat;
-    background-size: cover;
-    float:left;
-    width:350px;
-    height: 350px;
-    margin-top: 20px;
-
-}
-section > div.sec_1 > .right{
-    text-align: left;
-    margin-top: 20px;
-    float: right;
-    width: 400px;
-
-}
-section > div.sec_1 > .right >h2 {
-    margin: 0 0 30px 0;
-}
-section > div.sec_1 > .right > p {
-    line-height: 1.7em;
-    margin-bottom: 30px;
-}
-section > div.sec_1 > .right > a{
-    width: 300px;
-    height: 50px;
-    line-height: 50px;
-    padding: 15px;
-    background: green;
-    color: white;
-}
-
-
-section > div.sec_1 > .right > a > span {
-    color: darkseagreen;
-}
-h1.comfort {margin-top: 50px;}
-
-#bullet > ul {
-    margin-top: 50px;
-}
-#bullet > ul > li{
-    line-height: 2em;
-    font-size: 15px;
-}
-#bullet > ul > li > img {
-    margin-right: 5px;
-}
-#top{
+    background: #b9b9b9;
     position: fixed;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: black;
-    text-align: center;
-    bottom: 80px;
-    right: 50px;
-    z-index: 99999;
-    opacity: .5;
-}
-
-#top > a {
-    color: white;
-    line-height: 50px;
-    display: block;
-}
-
-#top:hover{
-    opacity: 1;
-}
-
-/*care*/
-#care > #wrapper {
-    height:100%;
-    
-    
-}
-#care > #wrapper > section {
-    width: 820px;
-    height: 100%;
-    margin: 50px auto;
-   background: rgba(255, 242, 228, 0.47);
-    padding: 50px;
-    text-align: left;
-    overflow: hidden;
-    
-}
-#care > #wrapper > section > h2, 
-#cosmetics {
-    margin: 0;
-    font-weight: bold;
-
-
-
-}
-#care > #wrapper > section > div.line
-{
-    border-top: 1px solid black;
-    margin: 10px 0 50px 0;
-}
-#care > #wrapper > section > div.advanced{
-     width:650px;
-    margin: 0 auto;
-}
-#care > #wrapper > section > div.prevent{
-    width:700px;
-    margin: 0 auto;
-}
-#care > #wrapper > section > div.prevent >h3{
+    top: 0;
+    clear: both;
     width: 100%;
+    height: 50px;
+    z-index: 999;
 }
-#care > #wrapper > section > div.prevent > img {
-    margin-left: 10px;
+
+nav ul li {
+    float: left;
+    width: 20%;
+    list-style: none;
+    line-height: 50px;
 }
-#care > #wrapper > section > div.advanced{
+nav ul li a {
+    color: white;
+    display: block;
     text-align: center;
-    overflow: hidden;
+    text-decoration: none;
+    transition: background 1s;
+    transition: color 1s;
+}
+
+nav ul li:hover {
+    background: white;
+}
+nav ul li:hover a{
+    color: black;
+}
+#bg {
+
+    text-align: center;
+    background: url(images/bg.png);
+    height: 570px;
+}
+#home> #bg> #header {
     margin-bottom: 50px;
 }
-#care > #wrapper > section > div.prevent > img{
-    
-    width: 360px;
-    margin-bottom: 30px;
-    float: right;
-}
-#care > #wrapper > section > div > h3 {
-    margin: 0 auto;
-    width: 800px;
-    font-style: italic;
-    color: green;
-}
-
-#accordian > div {
-    width: 900px;
-    margin: 0 auto;
-    padding: 50px;
-}
-
-.ui-accordion .ui-accordion-content > img,
-.ui-accordion .ui-accordion-content > iframe{
-    margin-bottom: 30px;
-    width: 600px;
-    height: 300px;
-}
-.ui-accordion .ui-accordion-content > ul > li  {
-    line-height: 2.5em;
-}
-#accordian2 > iframe {
-    width:600;
-    height:300;
-  }
-#appointment > #wrapper {
-    height: 100%; 
-    margin: 50px auto;
-    padding: 50px;
-    
-    border-radius: 5px;
-    text-align: left;
-}
-#appointment > #wrapper > aside {
-    float: left;
-    width: 300px;
+#header {
     height: 100%;
-    background: transparent;
-    padding: 0;
+    margin-top: 100px;
+
+}
+
+
+#header> h1{
+    font-size: 5.5em;
+    letter-spacing: 0.13em;
+    padding-top:200px;;
+}
+
+#header a {
+    padding: 15px 0;
+    border: 1px solid black;
+    display: block;
+    width: 25em;
+    margin: 0 auto;
+    font-size: 1em;
+    letter-spacing: 0.11em;
+    margin-top: 40px;
+    color: black;
+    opacity:0;
+    transition: opacity 2s;
+    cursor: pointer;
+}
+#bg:hover #header> a {
+    opacity: 1;
+    background: black;
+    color: white;
+}
+
+#wrapper {
+    width: 60em;
+    margin: 0 auto;
+    padding: 100px 50px;
     text-align: center;
 }
-
-#appointment > #wrapper > aside > .ui-accordion .ui-accordion-content {
-    padding: 4em 2em;
+#wrapper> h2 {
+    font-size: 2em;
+    margin-bottom: 100px;
 }
-#appointment > #wrapper > aside > #accordian > h4{
-    margin: 10px 0 30px 0 ;
+#wrapper> ul {
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+#wrapper> ul> li {
+    width: 18.75em;
+    overflow: hidden;
+    margin-right: 30px;
+    float: left;
+}
+
+
+#wrapper> ul> li:nth-child(3){
+    margin-right: 0;
+}
+#wrapper> h3{
+    margin-bottom: 50px;
+    padding-top: 50px;
 
 }
-#appointment > #wrapper > aside >  p{
-
-    line-height: 1.6em;
-    margin-bottom: 10px;
-
-
+#wrapper> p {
+    width: 85%;
+    margin: 0 auto;
+    line-height: 1.5em;
 }
-#appointment > #wrapper > aside >  p.phone{
-   color: white;
-}
-#appointment > #wrapper > main {
-    float: right;
-    width: 500px;
-}
-label {
-        display: block;
-        margin-bottom: 4px;
-    }
-    
-    fieldset {
-        width: 400px;
-        padding: 25px;
-        
-        border: 2px solid orange;
-        border-radius: 5px;
-        margin-bottom: 30px;
-        float: right;
-
-    }
-    legend {
-        font-size: 20px;
-        text-align: center;
-    }
-    
-    label {
-        padding: 5px 0;
-        font-weight: bold;
-    }
-    
-    input[type=text]
-    input[type=email]{
-        
-        width: 100%;
-        margin-bottom: 10px;
-        height: 20px;
-    }
-    
-    input[type=radio]
-    input[type=checkbox]{
-    margin: 0 5px 5px 10px;
-    }
-    
-    
-    textarea {
+.prod> ul {
     width: 100%;
+    text-align: center;
+}
+.prod> ul> li {
+    width: 18.75em;
+    height: 400px;
+    margin: 0 auto;
+}
+
+
+.project> div{
+    background: url(../images/collabbg.png) no-repeat center;
+    padding: 50px 0;
+    height: 550px;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+
+}
+
+
+.project> div> .txt {
+    background: rgba(255, 255, 255, 0.62);
+    height: 550px;
+    padding: 50px 0;
+    margin-top: 655px;
+    transition: margin-top 1s;
+}
+.project:hover> div> .txt {
+
+    margin-top: -50px;
+}
+.project> div> .txt> h4{
+    font-size: 1.8em;
+    padding: 10px 0;
+    border: 1px solid black;
+    width: 18.75em;
+    margin: 0 auto;
+
+}
+.project> div> .txt> p {
+    padding: 50px 0;
+    font-size: 1.6em;
+
+}
+
+.project> div> .txt> img{
+    width: 9.375em;
+}
+form {
+
+    padding-top: 0;
+}
+
+form >fieldset {
+    padding: 30px;
+
+}
+form> fieldset> legend {
+    padding: 0 10px;
+}
+form >fieldset >input {
+    width: 21.875em;
+    margin-bottom: 10px;
+}
+form>fieldset>textarea{
+    width:25em;
+    margin-bottom: 10px;
+}
+form> input.done{
+    margin-top: 80px;
+    border: 1px solid black;
+    background: white;
+    width: 12.5em;
+    padding: 10px 0;
+    cursor:pointer;
+
+}
+form> input.done:hover{
+    background: black;
+    color: white;
+}
+
+
+
+
+footer {
+    clear: both;
+    width: 100%;
+    padding: 30px 0;
+    background: rgba(0, 0, 0, 0.12);
+    bottom: 0;
+    color: gray;
+}
+
+#inner {
+    width: 58.75em;
+    clear: both;
+    height: 100%;
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+#inner ul.add {
+    width: 31.25em;
+    margin: 0 auto;
+}
+
+
+#inner ul li {
+    float: left;
+    width: 6.25em;
+    text-align: center;
+
+}
+
+#inner ul li a{
+    color: gray;
+    display: block;
+}
+#inner ul.add li:hover a {
+    color: white;
+    font-weight: bold;
+}
+
+#inner ul.social {
+
+    width: 25em;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#inner ul.social li a {
+    color: gray;
+}
+
+#inner ul.social li:hover a {
+    color: white;
+}
+
+#inner ul.copy {
+    width: 28.125em;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+
+}
+#inner ul.copy li {
+    width: 9.375em;
+    text-decoration: none;
+}
+
+#inner ul.copy li a {
+    text-decoration: underline;
+}
+
+#validator {
+    position: fixed;
+    bottom: 0;
+}
+
+/* ++++++++++++++++++++++ RESPONSIVE ++++++++++++++++++++++ */
+
+@media screen and (max-width: 700px){
+
+    #wrapper {
+        width: 90%;
+         margin: 0 auto;
+        padding: 100px 0;
     }
-    
-    form li {
-        list-style-type: none;
+    #wrapper> ul{
+        margin-bottom: 0;
     }
-    
-    form li:nth-last-child(1) {
-        margin-bottom: 20px;
-        
+    #wrapper> ul> li{
+        margin-right:0;
+        float:none;
+        overflow: hidden;
+        margin: 0 auto;
+         margin-bottom: 30px;
     }
-    
-    select {
-        margin-bottom:10px;
+    .prod> ul {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+    .prod> ul> li:nth-child(3){
+        display: none;
     }
 
-input[type=submit] {
-    float: right;
-    margin-top: 20px;
+    footer{
+        width:100%
+    }
+
+    footer> #inner {
+        width: 80%;
+        margin: 0 auto;
+    }
+    footer> #inner> ul.copy{
+        padding-bottom: 20px;
+    }
+    nav {
+        display: none;
+    }
+
+    .nav-button {
+		display: block;
+		position: absolute;
+		top: 7px;
+		left: 7px;
+		width: 50px;
+		height: 35px;
+		background: url('../images/menu-icon-large.png');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 21px, 100%;
+		cursor: pointer;
+		border: 0 none;
+		border-bottom: 1px solid rgba(255,255,255,.1);
+		border-radius: 5px;
+		z-index: 999;
+		text-indent: -9999px;
+	}
+	.nav-button:hover {
+		background-color: rgba(0,0,0,.1);
+	}
+	.nav-button.open {
+		background: url('../images/close-icon-large.png');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 21px, 100%;
+	}
+
+	/* Navigation Bar
+	-------------------------------------------------------- */
+
+
+
+	.primary-nav {
+		width: 100%;
+		float: none;
+		background: #b9b9b9;
+
+		display: block;
+		height: 50px;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 998;
+		clear: both;
+	}
+	.primary-nav li {
+		display: none;
+		width: 100%;
+        text-align: center;
+	}
+	.primary-nav li a {
+		display: block;
+		width: 90%;
+		padding: 10px 5%;
+		font-size: 14px;
+		color: white;
+		text-decoration: none;
+		border-bottom: 1px solid rgba(0,0,0,.2);
+		border-top: 1px solid #b9b9b9;
+	}
+	.primary-nav li a:hover {
+		background-color: rgba(0,0,0,.5);
+		border-top-color: transparent;
+	}
+	.primary-nav > li:first-child {
+		border-top: 1px solid #b9b9b9;
+	}
+
+	/* Toggle the navigation bar open  */
+
+	.primary-nav.open {
+		height: auto;
+		padding-top: 50px;
+	}
+	.primary-nav.open li {
+		display: block;
+	}
+
+	/* Submenus – optional .parent class indicates dropdowns */
+
+	.primary-nav > li:hover > a {
+		background: rgba(0,0,0,.5);
+		border-bottom-color: transparent;
+	}
+	.primary-nav li.parent > a:after {
+		content: "▼";
+		color: rgba(255,255,255,.5);
+		float: right;
+	}
+	.primary-nav li.parent > a:hover {
+		background: rgba(0,0,0,.75);
+	}
+	.primary-nav li ul {
+		display: none;
+		background: rgba(0,0,0,.5);
+		border-top: 0 none;
+		padding: 0;
+	}
+	.primary-nav li ul a {
+		border: 0 none;
+		font-size: 12px;
+		padding: 10px 5%;
+		font-weight: normal;
+	}
+	.primary-nav li:hover ul {
+		display: block;
+		border-top: 0 none;
+	}
+
+}
+
+
+@media screen and (min-width: 701px) and (max-width: 800px) {
+    #mobile {
+        display: none;
+    }
+
+    #wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+        #wrapper> ul{
+        margin-bottom: 0;
+    }
+    #wrapper> ul> li{
+        margin-right:0;
+        float:none;
+        overflow: hidden;
+        margin: 0 auto;
+         margin-bottom: 30px;
+    }
+    .prod> ul {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+    .prod> ul> li:nth-child(3){
+        display: none;
+    }
+
+     footer{
+        width:100%
+    }
+
+    footer> #inner {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media screen and (min-width: 801px) and (max-width:1000px){
+    #mobile {
+        display: none;
+    }
+      #wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #wrapper> ul >li{
+        width: 30%;
+        overflow: hidden;
+        margin-right: 20px;
+        float: left;
+    }
+    #wrapper> ul> li> img{
+        width: 100%;
+    }
+    .prod> ul> li{
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1001px) and (max-width:1400px){
+    #mobile {
+    display: none;}
+    #wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #wrapper> ul >li{
+        width: 30%;
+        overflow: hidden;
+        margin-right: 40px;
+        float: left;
+    }
+    #wrapper> ul> li> img{
+        width: 100%;
+    }
+    .prod> ul> li{
+        height: 100%;
+    }
+}
+@media screen and (min-width: 1400px) {
+    #mobile{
+        display: none;
+    }
 }
