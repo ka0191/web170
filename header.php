@@ -44,9 +44,9 @@
 
 <body id="home" <?php body_class(); ?>>
   <!-- Begin WordPress Menu-->
-  <?php wp_nav_menu(array ('theme_location' =>'main-menu' ,'container' => 'div', 'container_id' =>'nav', 'container_class' =>'fix', 'menu_class' => 'navigation'));?>
+  <?php wp_nav_menu(array ('theme_location' =>'main-menu' ,'container' => 'nav', 'container_id' =>'nav', 'container_class' =>'fix', 'menu_class' => 'navigation'));?>
   <!-- End WordPress Menu -->
-<!-- <nav>
+ <!-- <nav>
     <ul>
         <li><a href="index.php">227WORLD</a></li>
         <li><a href="about.php">About</a></li>
@@ -65,7 +65,7 @@
         <li><a href="project.php">Projects</a></li>
         <li><a href="contact.php">Contact</a></li>
 		</ul>
-    </div>-->
+    </div> -->
 
 
     <div id="bg">
