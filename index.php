@@ -14,6 +14,13 @@
     <small>index.php</small>
 <!--end content-->
 
+<!--start sidebar-->
+    <?php get_sidebar(); ?>
+<!--end sidebar-->
+
+
+
+
 
 <!--start footer.php-->
 <?php get_footer(); ?>
