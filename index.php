@@ -11,16 +11,17 @@
     </article>
     <?php endwhile; endif; ?>
     <?php if(is_404()) {echo 'Nothing was found.';}?>
-    <small>index.php</small>
+    <small>page.php</small>
 <!--end content-->
+
+
+
+
+
 
 <!--start sidebar-->
     <?php get_sidebar(); ?>
 <!--end sidebar-->
-
-
-
-
 
 <!--start footer.php-->
 <?php get_footer(); ?>
