@@ -1,19 +1,26 @@
-<?php
-get_header();
-if(have_posts()) : while(have_posts()) : the_post();
-?>
-    <main>
-        <section class="container">
-	        <div class="blog-post-header">
-	            <h1 class="blog-title"><?php the_title(); ?></h1>
-	            <small class="blog-date">Published on <?php the_time('F jS, Y'); ?> in <?php the_category(); ?></small>
-	        </div> <!-- .blog-post-header -->
+<?php get_header(); ?>
 
-	        <?php the_content(); ?>
+    <div id="content">
 
-        <small>single.php</small>
-        </section>
-    </main>
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post();?>
+    <article id="post"-<?php the_ID(); ?> class="post">
+        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        <p><small>Posted on <?php the_time('F j, Y'); ?> by <?php the_author(); ?> in <?php the_category(', '); ?> </small></p>
+        <a href="<?php the_permalink(); ?>">
+       <?php the_post_thumbnail( 'large' ); ?></a>
 
-<?php endwhile; endif; ?>
+        <?php the_content('');
+        <?php endwhile; endif; ?>
+        <?php if(is_404()) {echo 'Nothing was found.';}?>
+
+    </article>
+
+
+
+<small>page.php</small>
+</div>
+
+
+<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

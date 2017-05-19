@@ -9,4 +9,6 @@ Version:1.0
 */
 
 register_nav_menus();
+
+add_theme_support( 'post-thumbnails' );
 ?>
