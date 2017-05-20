@@ -71,6 +71,5 @@
 
     <div id="bg">
     <div id="header">
-        <h1>227WORLD</h1>
-        <a href="products.php">SEE PRODUCTS</a>
+        <h1>FASHION WORLD</h1>
     </div>

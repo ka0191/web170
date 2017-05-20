@@ -123,6 +123,12 @@ nav ul li:hover a{
     margin: 0 auto;
     line-height: 1.5em;
 }
+article {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
 .prod> ul {
     width: 100%;
     text-align: center;
@@ -207,7 +213,32 @@ form> input.done:hover{
     color: white;
 }
 
+/*sidebar++++++++++++++++++*/
+#sidebar {
+    width: 220px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 30px auto;
+    float: right;
+}
 
+#sidebar ul {
+    padding-left: 10px;
+    list-style: square;
+    line-height: 30px;
+}
+
+#sidebar ul > li > ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+#sidebar ul li .active {
+    font-weight: 400;
+    color: #84bc87;
+}
 
 
 footer {
@@ -217,6 +248,7 @@ footer {
     background: rgba(0, 0, 0, 0.12);
     bottom: 0;
     color: gray;
+    margin-top: 50px;
 }
 
 #inner {
