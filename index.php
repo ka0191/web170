@@ -9,9 +9,8 @@
         <article id="post"-<?php the_ID(); ?> class="post">
 			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			<p><small>Posted on <?php the_time('F j, Y'); ?> by <?php the_author(); ?> in <?php the_category(', '); ?> </small></p>
-			<a href="<?php the_permalink(); ?>">
-			   <?php the_post_thumbnail( 'thumbnail' ); ?></a>
-
+			<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'thumbnail' ); ?></a>
+               <?php the_excerpt(); ?> <a href="<?php the_permalink(); ?>">Read More ></a>
 
 	</article>
     <?php endwhile; endif; ?>
