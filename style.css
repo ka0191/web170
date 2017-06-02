@@ -45,6 +45,7 @@ nav ul li:hover {
 nav ul li:hover a{
     color: black;
 }
+
 #bg {
 
     text-align: center;
@@ -213,6 +214,11 @@ form> input.done:hover{
     color: white;
 }
 
+#content article.post-excerpt {
+overflow: hidden;
+margin-bottom: 20px;
+}
+
 /*sidebar++++++++++++++++++*/
 #sidebar {
     width: 220px;
@@ -240,6 +246,7 @@ form> input.done:hover{
     color: #84bc87;
 }
 
+blockquote{display: block;}
 
 footer {
     clear: both;
